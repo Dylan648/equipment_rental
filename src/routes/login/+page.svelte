@@ -5,5 +5,8 @@
 </script>
 
 <div class="h-screen flex items-center justify-center">
-  <h1>Login</h1>
+  <div class="flex-col text-center">
+    <h1 class="flex items-center justify-center">Login</h1>
+    <button class="btn bg-forest hover:bg-miner">Sign In with UMSystem</button>
+  </div>
 </div>
