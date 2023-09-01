@@ -1,8 +1,11 @@
-<h1 class="text-3xl font-bold underline">Hello world!</h1>
-<button class="btn">Button</button>
+<script lang="ts">
+  import type { PageData } from "./$types"
 
-<style lang="postcss">
-  :global(html) {
-    background-color: theme(colors.gray.100);
-  }
-</style>
+  export let data: PageData
+</script>
+
+<div class="h-screen flex items-center justify-center">
+  <div class="flex-col text-center">
+    <button class="btn bg-forest hover:bg-miner">Sign In with UMSystem</button>
+  </div>
+</div>
